@@ -1,0 +1,13 @@
+spring:
+  jpa:
+    hibernate:
+      ddl-auto: create
+    show-sql: true
+    database-platform: org.hibernate.dialect.MySQLDialect
+  datasource:
+    url: "jdbc:mysql://localhost:3306/security?serverTimezone=Asia/Seoul"
+    username: root
+    password: 1234567890
+    driver-class-name: com.mysql.cj.jdbc.Driver
+jwt:
+  secret: "secretKeysecretKeysecretKeysecretKeysecretKeysecretKeysecretKeyqowjfasjdklfhaskdjfhaskljdfahfaskljdhfalksjdfhaslkjdfhaslkjdfh"
